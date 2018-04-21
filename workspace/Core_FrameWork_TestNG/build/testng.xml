@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="MySuite" verbose="1" >
+<listeners>  
+<listener class-name = "com.qtpselenium.listener.TestsListenerAdapter"/>
+</listeners>  
+  <suite-files>
+  
+		<suite-file path="./Suite_A.xml"/>
+		<suite-file path="./Suite_B.xml"/>
+		<suite-file path="./Suite_C.xml"/>
+		
+  </suite-files> 
+ </suite> 

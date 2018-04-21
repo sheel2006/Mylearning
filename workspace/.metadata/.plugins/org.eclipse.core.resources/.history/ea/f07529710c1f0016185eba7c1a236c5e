@@ -1,0 +1,11 @@
+package Pratice;
+
+public class ArrayListPract {
+
+	public static void main(String[] args) {
+		emp e1 = new emp(10,"TestA");
+	ArrayList al = new ArrayList();
+
+	}
+
+}

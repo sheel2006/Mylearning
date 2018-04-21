@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.qtp.selenium.framework.datadriven.DataDrivenFramework.TestBase"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test1"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test2"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test3"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test4"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test5"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test1"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test2"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test3"/>
+      <class name="com.qtpselenium.framework.datadriven.suiteC.Test2"/>
+      <class name="com.qtpselenium.framework.datadriven.util.TestDataProvider"/>
+      <class name="TestRough.Test_Cases"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test2">
+        <methods>
+          <include name="test2" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test2 -->
+      <class name="com.qtpselenium.framework.datadriven.suiteB.Test3">
+        <methods>
+          <include name="test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteB.Test3 -->
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test3">
+        <methods>
+          <include name="test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteA.Test3 -->
+      <class name="com.qtpselenium.framework.datadriven.suiteA.Test5">
+        <methods>
+          <include name="test5" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.suiteA.Test5 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

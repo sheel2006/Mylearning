@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19106" started-at="2016-06-12T06:43:23Z" finished-at="2016-06-12T06:43:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19106" started-at="2016-06-12T06:43:23Z" finished-at="2016-06-12T06:43:42Z">
+      <class name="com.AltoroMutual.TestCases.CustomerLoginTest">
+        <test-method status="PASS" signature="CustomerLoginTest(java.util.Hashtable)[pri:0, instance:com.AltoroMutual.TestCases.CustomerLoginTest@4883b407]" name="CustomerLoginTest" duration-ms="14070" started-at="2016-06-12T12:13:24Z" data-provider="getdata" finished-at="2016-06-12T12:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, Password=Demo1234, UserName=jsmith, Flag=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginTest -->
+        <test-method status="PASS" signature="CustomerLoginTest(java.util.Hashtable)[pri:0, instance:com.AltoroMutual.TestCases.CustomerLoginTest@4883b407]" name="CustomerLoginTest" duration-ms="3988" started-at="2016-06-12T12:13:38Z" data-provider="getdata" finished-at="2016-06-12T12:13:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{RunMode=Y, Password=Test1234, UserName=test, Flag=N}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerLoginTest -->
+      </class> <!-- com.AltoroMutual.TestCases.CustomerLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

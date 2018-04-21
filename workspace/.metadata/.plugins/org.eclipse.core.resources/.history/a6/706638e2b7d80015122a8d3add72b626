@@ -1,0 +1,14 @@
+package com.qtpselenium.framework.datadriven.util;
+
+public class Constants {
+	
+	//All sheet names
+	public static String SUITE_NAME ="Suite";
+	public static String TESTCASE_NAME ="TestCases";
+	
+	// All column name in sheet
+	public static String SUITENAME_COL ="SuiteName";
+	public static String RUNNAME_COL ="Runmode";
+	public static String TESTCASE_COL ="TestCases";
+
+}

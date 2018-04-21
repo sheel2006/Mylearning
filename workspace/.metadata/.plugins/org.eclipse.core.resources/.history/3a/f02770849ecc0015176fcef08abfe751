@@ -1,0 +1,34 @@
+
+public class Car {
+
+	String model;
+	int price;
+	int wheel;
+	
+	public static void main(String[] args) {
+//Creating the object of class..In object all non static stuff define
+//like  model,price,wheel, start and void
+	Car c1=	new Car();// C1 known as reference to object
+	c1.model ="Merc";
+	c1.price= 100;
+	c1.wheel=4;
+	c1.start();
+	c1.accel();
+	
+	Car c2= new car();
+	c2.model="Maruti";
+	c2.price=200;
+	c2.wheel=6;
+	c2.accel();
+	c2.start();
+	
+	System.out.println(c1.model);
+	System.out.println(c2.model);
+	}
+ public void start(){
+	 
+ }
+ public void accel(){
+	 
+ }
+}

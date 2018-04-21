@@ -1,0 +1,11 @@
+package StringClassDay1;
+
+public class Example5 {
+
+	public static void main(String[] args) {
+    String st ="Hello World";
+    System.out.println(st);
+    System.out.println(st.toString());
+	}
+
+}

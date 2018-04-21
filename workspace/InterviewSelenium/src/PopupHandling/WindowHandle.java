@@ -1,0 +1,39 @@
+package PopupHandling;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WindowHandle {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		Set s =driver.getWindowHandles();
+		Iterator it =s.iterator();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https://www.olacabs.com/");
+	//	String mainwindowid = (String) it.next();
+		//System.out.println(mainwindowid);
+		driver.findElement(By.xpath(".//*[@id='corporate_link']")).click();
+		s =driver.getWindowHandles();
+		it = s.iterator();
+		String mainwinid = (String) it.next();
+		String subwinid  = (String) it.next();
+		
+		System.out.println("mainwinid  -"+mainwinid);
+		System.out.println("subwinid   -"+subwinid);
+		driver.switchTo().window(subwinid);
+		System.out.println("Title of Window   "+driver.getTitle());
+		driver.close();
+		driver.switchTo().window(mainwinid);
+		System.out.println("Title of Window   "+driver.getTitle());
+	}
+
+}

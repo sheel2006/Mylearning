@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AltoroMutual Suite]">
+  <listeners>
+    <listener class-name="com.AltroMutual.Listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.AltoroMutual.TestCases.CustomerLoginTest">
+        <methods>
+          <include name="CustomerLoginTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.AltoroMutual.TestCases.CustomerLoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="Customer Account Profile(failed)">
+    <classes>
+      <class name="com.AltoroMutual.TestCases.CustomerAccountProfile">
+        <methods>
+          <include name="CustomertSavingprofileTest"/>
+          <include name="CustomertCheckingprofileTest"/>
+        </methods>
+      </class> <!-- com.AltoroMutual.TestCases.CustomerAccountProfile -->
+    </classes>
+  </test> <!-- Customer Account Profile(failed) -->
+  <test name="Customer Transactions Query Test(failed)">
+    <classes>
+      <class name="com.AltoroMutual.TestCases.CustomerTransactionsQuery">
+        <methods>
+          <include name="CustomerTransactionsQuery"/>
+        </methods>
+      </class> <!-- com.AltoroMutual.TestCases.CustomerTransactionsQuery -->
+    </classes>
+  </test> <!-- Customer Transactions Query Test(failed) -->
+  <test name="Customer Fund Trx Test(failed)">
+    <classes>
+      <class name="com.AltoroMutual.TestCases.CustomerFundTrx">
+        <methods>
+          <include name="CustomerFundTrxTest"/>
+        </methods>
+      </class> <!-- com.AltoroMutual.TestCases.CustomerFundTrx -->
+    </classes>
+  </test> <!-- Customer Fund Trx Test(failed) -->
+</suite> <!-- Failed suite [AltoroMutual Suite] -->

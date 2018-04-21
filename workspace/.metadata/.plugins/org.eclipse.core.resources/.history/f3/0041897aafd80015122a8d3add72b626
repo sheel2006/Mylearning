@@ -1,0 +1,49 @@
+package com.qtpselenium.framework.datadriven.util;
+
+
+
+public class Utility {
+
+	/* To check that Test suite runmode is Y or N */
+	public static boolean isSuitableRunnable(String suiteName,Xls_Reader xls){
+		boolean isExecutable= false;
+		int rows = xls.getRowCount("Suite");
+		//"Suite" name tab in excel sheet 
+		for(int rNum =2 ; rNum<=rows;rNum++){
+			String data = xls.getCellData("Suite", "SuiteName", rNum);
+			//SuiteName and Runmode column name in Suite tab.
+			if (data.equalsIgnoreCase(suiteName)){
+				String runmode = xls.getCellData("Suite", "Runmode", rNum);
+				if(runmode.equalsIgnoreCase("Y")){
+					isExecutable = true;
+				}
+				else 
+					isExecutable = false;
+				}
+			}
+		xls = null; //remove memory  
+		return isExecutable;
+	}
+	
+	
+	/* To check that Test suite runmode is Y or N */
+	public static boolean isTestCaseRunnable(String testcase,Xls_Reader xls){
+		boolean isExecutable= false;
+		int rows = xls.getRowCount("TestCase");
+		//"Suite" name tab in excel sheet 
+		for(int rNum =2 ; rNum<=rows;rNum++){
+			String data = xls.getCellData("TestCase", "TestCases", rNum);
+			//SuiteName and Runmode column name in Suite tab.
+			if (data.equalsIgnoreCase(testcase)){
+				String runmode = xls.getCellData("TestCase", "Runmode", rNum);
+				if(runmode.equalsIgnoreCase("Y")){
+					isExecutable = true;
+				}
+				else 
+					isExecutable = false;
+				}
+			}
+		xls = null; //remove memory  
+		return isExecutable;
+	}
+}

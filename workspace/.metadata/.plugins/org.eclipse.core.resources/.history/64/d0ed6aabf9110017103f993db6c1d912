@@ -1,0 +1,5 @@
+package com.qtpselenium.core.hybrid.email;
+
+public class Zip {
+
+}

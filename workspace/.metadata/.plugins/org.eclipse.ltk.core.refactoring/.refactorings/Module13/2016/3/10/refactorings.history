@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;redifLink_specific&apos; to &apos;redif_1_specificlinks&apos;&#x0D;&#x0A;- Original project: &apos;Project13&apos;&#x0D;&#x0A;- Original element: &apos;redifLink_specific&apos;&#x0D;&#x0A;- Renamed element: &apos;redif_1_specificlinks&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;redifLink_specific&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{redifLink_specific.java[redifLink_specific" matchStrategy="1" name="redif_1_specificlinks" qualified="false" references="true" similarDeclarations="false" stamp="1456837125714" textual="false" version="1.0"/>
+</session>

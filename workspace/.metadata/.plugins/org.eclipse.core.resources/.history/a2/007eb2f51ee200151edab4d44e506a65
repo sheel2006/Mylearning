@@ -1,0 +1,26 @@
+package Popup;
+
+import org.openqa.selenium.WebDriver;
+
+public class NaukriComPopUp {
+static WebDriver driver;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driver.get("http://www.naukri.com/");
+		
+		String windowTitle= getcurrentWindowTitle();
+        System.out.println("windowTitle---"+windowTitle);
+        String getMainWindowHandle = getMainWindowHandle(driver); 
+        System.out.println("getMainWindowHandle--"+getMainWindowHandle);
+	}
+
+	public static String getcurrentWindowTitle(){
+		String windowTitle = driver.getTitle();
+		return windowTitle;
+	}
+	
+	public static String getMainWindowHandle(WebDriver driver){
+		return driver.getWindowHandle();
+	}
+	
+}

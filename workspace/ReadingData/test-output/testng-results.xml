@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1107" started-at="2017-02-05T08:08:26Z" finished-at="2017-02-05T08:08:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1107" started-at="2017-02-05T08:08:26Z" finished-at="2017-02-05T08:08:27Z">
+      <class name="TestA">
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:TestA@6a024a67]" name="testA" duration-ms="16" started-at="2017-02-05T13:38:27Z" data-provider="getData" finished-at="2017-02-05T13:38:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col2=C12, Col1=C11, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:TestA@6a024a67]" name="testA" duration-ms="3" started-at="2017-02-05T13:38:27Z" data-provider="getData" finished-at="2017-02-05T13:38:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col2=C22, Col1=C21, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- TestA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

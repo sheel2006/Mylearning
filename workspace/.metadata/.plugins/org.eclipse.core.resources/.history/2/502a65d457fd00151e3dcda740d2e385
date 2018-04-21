@@ -1,0 +1,16 @@
+import java.util.Hashtable;
+import java.util.Iterator;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		Hashtable hs= new Hashtable();
+		hs.put("A", 10);
+		hs.put("B", 10);
+		hs.put("C",20);
+		hs.put("D", 30);
+		
+		System.out.println(hs.get("A"));
+		Iterator it = (Iterator)hs.keys();
+	}
+}

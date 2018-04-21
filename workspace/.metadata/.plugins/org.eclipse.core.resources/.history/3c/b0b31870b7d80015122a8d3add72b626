@@ -1,0 +1,5 @@
+package com.qtpselenium.framework.datadriven.util;
+
+public class Constants {
+
+}

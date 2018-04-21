@@ -1,0 +1,29 @@
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	/*	Hashtable hs= new Hashtable();
+		hs.put("A", 10);
+		hs.put("A", 20);
+		hs.put("C", 40);
+		hs.put("D", 30);
+		
+	
+	Iterator it = (Iterator)hs.keys();
+	while(it.hasNext()){
+		System.out.println(it.next());	
+		}*/
+	
+	String st ="Hello World";
+	for(int i=st.length();i<1;i--){
+		System.out.print(i);
+	}
+	
+		
+		
+		
+	}
+}

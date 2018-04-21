@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Lenovo-PC" name="MyMavenProjectGroup.TestProject.YahooNewsTest" tests="5" failures="2" timestamp="7 Mar 2016 15:08:39 GMT" time="0.781" errors="0">
+  <testcase name="TestNews" time="0.641" classname="MyMavenProjectGroup.TestProject.YahooNewsTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &amp;apos;2.50.1&amp;apos;, revision: &amp;apos;d7fc91b29de65b790abb01f3ac5f7ea2191c88a7&amp;apos;, time: &amp;apos;2016-01-29 11:11:26&amp;apos;
+System info: host: &amp;apos;Lenovo-PC&amp;apos;, ip: &amp;apos;192.168.0.100&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_71&amp;apos;
+Driver info: driver.version: FirefoxDriver">
+      <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:139)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at MyMavenProjectGroup.TestProject.YahooNewsTest.TestNews(YahooNewsTest.java:26)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2: Illegal configuration-file syntax
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:142)
+	at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+	at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+	at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:443)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:421)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:95)
+	... 31 more
+Caused by: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2: Illegal configuration-file syntax
+	at javax.xml.xpath.XPathFactory.newInstance(XPathFactory.java:102)
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:100)
+	... 36 more
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testregisiter" time="0.0" classname="MyMavenProjectGroup.TestProject.YahooRegisiterTest_Parameter_TestNg"/>
+  <testcase name="testregisiter" time="0.0" classname="MyMavenProjectGroup.TestProject.YahooRegisiterTest_Parameter_TestNg"/>
+  <testcase name="testregisiter" time="0.0" classname="MyMavenProjectGroup.TestProject.YahooRegisiterTest_Parameter_TestNg"/>
+  <testcase name="yahootestlogin" time="0.109" classname="MyMavenProjectGroup.TestProject.yahooTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: &amp;apos;2.50.1&amp;apos;, revision: &amp;apos;d7fc91b29de65b790abb01f3ac5f7ea2191c88a7&amp;apos;, time: &amp;apos;2016-01-29 11:11:26&amp;apos;
+System info: host: &amp;apos;Lenovo-PC&amp;apos;, ip: &amp;apos;192.168.0.100&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_71&amp;apos;
+Driver info: driver.version: FirefoxDriver">
+      <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+null
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:139)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at MyMavenProjectGroup.TestProject.yahooTest.yahootestlogin(yahooTest.java:13)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2: Illegal configuration-file syntax
+Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:142)
+	at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+	at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+	at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:443)
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:421)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:95)
+	... 31 more
+Caused by: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2: Illegal configuration-file syntax
+	at javax.xml.xpath.XPathFactory.newInstance(XPathFactory.java:102)
+	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:100)
+	... 36 more
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

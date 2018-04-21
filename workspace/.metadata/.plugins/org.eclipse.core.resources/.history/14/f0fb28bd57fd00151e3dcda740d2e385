@@ -1,0 +1,20 @@
+public class Test {
+	int empid;
+	float sal;
+	String ename;
+	//user construtor is excuted during object creation
+	Test(){
+		empid = 111;
+		sal= 1000.00f;
+		ename = "Test Name";
+	}
+	void m1(){
+		System.out.println("value of empid = "+empid);
+		System.out.println("value of sale  = "+sal);
+		System.out.println("employee name  = "+ename);
+	}
+	public static void main(String[] args) {
+		Test t = new Test();
+		t.m1();
+		}
+}

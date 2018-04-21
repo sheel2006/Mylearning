@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="0" name="TestSuite" time="0.725" errors="0" skipped="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_71\bin"/>
+    <property name="java.vm.version" value="25.71-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Sheel\workspace\Core_WebDriver_DataDriven_Framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Sheel\workspace\Core_WebDriver_DataDriven_Framework"/>
+    <property name="java.runtime.version" value="1.8.0_71-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_71\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Sheel\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6134848091821555768.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_71\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_71/bin/server;C:/Program Files/Java/jre1.8.0_71/bin;C:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Lenovo\Motion Control\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\apache-ant-1.9.6\bin;C:\apache-maven-3.3.9\bin;C:\Users\Lenovo\Desktop\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="java.class.path" value="/C:/Users/Lenovo/Desktop/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_71"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_71\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_71\lib\resources.jar;C:\Program Files\Java\jre1.8.0_71\lib\rt.jar;C:\Program Files\Java\jre1.8.0_71\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_71\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_71\lib\jce.jar;C:\Program Files\Java\jre1.8.0_71\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_71\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_71\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Sheel\workspace\Core_WebDriver_DataDriven_Framework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest" name="LeastPerAssetTest" time="0.117">
+    <skipped/>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4141d797
+C:\Sheel\workspace\Core_WebDriver_DataDriven_Framework
+C:\Sheel\workspace\Core_WebDriver_DataDriven_Framework\src\test\java\com\qtpselenium\framework\datadriven\xlsx\
+Total number of rows 27
+ Test Satrt from row number 8
+Total rows of data are 3
+Total column of data are 6
+Y
+
+Chrome
+
+
+
+N
+
+C12
+C23
+C34
+C44
+N
+
+C13
+C24
+C35
+C45
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest" name="LeastPerAssetTest" time="0.081">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest" name="LeastPerAssetTest" time="0.082">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.LoginTest" name="LoginTest" time="0.088">
+    <skipped/>
+    <system-out>Total number of rows 27
+ Test Satrt from row number 2
+Total rows of data are 3
+Total column of data are 6
+Y
+
+Chrome
+sheel2006@gmail.com
+helpdesk
+Success
+N
+
+Chrome
+C23
+C34
+Failure
+N
+
+Mozilla
+C24
+C35
+Success
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.LoginTest" name="LoginTest" time="0.096">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.LoginTest" name="LoginTest" time="0.08">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.Test4" name="test4" time="0.076">
+    <skipped/>
+    <system-out>Total number of rows 27
+ Test Satrt from row number 18
+Total rows of data are 2
+Total column of data are 3
+Y
+
+C11
+Y
+
+C12
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.framework.datadriven.PortFolio.Test4" name="test4" time="0.105">
+    <skipped/>
+  </testcase>
+</testsuite>

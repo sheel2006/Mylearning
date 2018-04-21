@@ -1,0 +1,29 @@
+package PopupHandling;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WindowHandle {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		Set s =driver.getWindowHandles();
+		Iterator it =s.iterator();
+		driver.get("https://www.olacabs.com/");
+		String mainwindowid = (String) it.next();
+		//System.out.println(mainwindowid);
+		driver.findElement(By.xpath(".//*[@id='corporate_link']")).click();
+		s =driver.getWindowHandles();
+		it = s.iterator();
+		System.out.println(it.next());
+		System.out.println(it.next());
+		
+	}
+
+}

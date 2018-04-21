@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ErrorUtil.java&apos; to &apos;DataDrivenFramework/src/test/java/com.qtpselenium.framework.datadriven.util&apos;&#x0D;&#x0A;- Original project: &apos;Core_FrameWork_TestNG&apos;&#x0D;&#x0A;- Destination element: &apos;DataDrivenFramework/src/test/java/com.qtpselenium.framework.datadriven.util&apos;&#x0D;&#x0A;- Original element: &apos;com.qtpselenium.util.ErrorUtil.java&apos;" description="Copy compilation unit" destination="=DataDrivenFramework/src\/test\/java&lt;com.qtpselenium.framework.datadriven.util" element1="/src&lt;com.qtpselenium.util{ErrorUtil.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1459617797486" units="1" version="1.0"/>
+</session>

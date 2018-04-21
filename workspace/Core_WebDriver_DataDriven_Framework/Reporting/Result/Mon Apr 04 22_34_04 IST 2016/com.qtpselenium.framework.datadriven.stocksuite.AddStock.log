@@ -1,0 +1,73 @@
+2016-04-04 22:34:04,271 DEBUG [AddStock]  Step # Control in init method
+2016-04-04 22:34:05,066 DEBUG [AddStock] Step#1.6 : Calling getData for AddStock
+2016-04-04 22:34:05,084 DEBUG [AddStock]  Step # Control in validateRunmodes method
+2016-04-04 22:34:05,084 DEBUG [AddStock] Step#1.1 : Validating  method validateRunmodes AddStock in suite StockSuite
+2016-04-04 22:34:05,113 DEBUG [AddStock] Step#1.2 : Validating  method isSuitableRunnable--StockSuite
+2016-04-04 22:34:05,167 DEBUG [AddStock] Step#1.3 : Validating  method isSuitableRunnable--AddStock
+2016-04-04 22:34:05,175 DEBUG [AddStock] Step#1.5 : Skipping the testAddStockinside the suite StockSuite
+2016-04-04 22:34:05,175 DEBUG [AddStock] Step#2.0 : Executing from Stock Suite 
+2016-04-04 22:34:05,176 DEBUG [AddStock] Step # Control in dologindefault method 
+2016-04-04 22:34:05,176 DEBUG [AddStock] Step#1.8 : Executing from dologindefault 
+2016-04-04 22:34:05,176 DEBUG [AddStock] Step#1.9 : Executing from dologindefault Mozilla
+2016-04-04 22:34:05,176 DEBUG [AddStock]  Step # Control in dologin method -- Mozilla
+2016-04-04 22:34:05,176 DEBUG [AddStock]  Step # Control in openBrowser method
+2016-04-04 22:34:09,100 DEBUG [AddStock]  Step # Control in navigate method
+2016-04-04 22:34:12,472 DEBUG [AddStock] Step#1.8-dologin : Executing  with bowsernamesheel2006@gmail.com
+2016-04-04 22:34:12,472 DEBUG [AddStock]  Step # Control in isElementpresent method  
+2016-04-04 22:34:12,586 DEBUG [AddStock]  Step # Control in JavascriptExecutorclick method .//*[@id='homewrapper']/div[5]/a[3]/div/u
+2016-04-04 22:34:12,657 DEBUG [AddStock]  Step # Control in click method  .//*[@id='wrapper']/div[2]/ul/li[2]/a
+2016-04-04 22:34:14,515 DEBUG [AddStock]  Step # Control in verifyTitle method  
+2016-04-04 22:34:17,822 DEBUG [AddStock]  Step # Control in input method  useremail--Data value---sheel2006@gmail.com
+2016-04-04 22:34:17,935 DEBUG [AddStock]  Step # Control in click method  .//*[@id='emailsubmit']
+2016-04-04 22:34:18,063 DEBUG [AddStock]  Step # Control in input method  .//*[@id='userpass']--Data value---helpdesk
+2016-04-04 22:34:18,380 DEBUG [AddStock]  Step # Control in JavascriptExecutorclick method .//*[@id='loginsubmit']
+2016-04-04 22:34:20,695 DEBUG [AddStock] Step#2.1 : Click on addStock 
+2016-04-04 22:34:20,695 DEBUG [AddStock]  Step # Control in input method  .//*[@id='addstockname']--Data value---Nestle India Ltd.
+2016-04-04 22:34:21,016 DEBUG [AddStock] Step#2.2 : extract value from calender 
+2016-04-04 22:34:21,017 DEBUG [AddStock]  Step # Control in click method  .//*[@id='stockPurchaseDate']
+2016-04-04 22:34:21,199 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:21,270 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:21,401 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:21,450 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:21,564 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:21,614 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:21,713 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:21,768 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:21,870 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:21,920 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,016 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,062 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,158 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,202 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,302 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,348 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,441 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,481 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,580 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,622 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,719 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,760 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:22,859 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:22,911 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:23,021 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:23,083 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:23,218 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:23,334 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:23,450 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:23,493 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:23,600 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:23,656 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:23,779 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:23,860 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:23,977 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:24,044 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:24,148 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:24,203 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:24,326 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:24,380 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:24,493 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:24,544 DEBUG [AddStock]  Step # Control in click method  .//*[@id='datepicker']/table/tbody/tr[1]/td[2]/button
+2016-04-04 22:34:24,650 DEBUG [AddStock] Step # Control in identifier method 
+2016-04-04 22:34:24,816 DEBUG [AddStock]  Step # Control in input method  .//*[@id='addstockqty']--Data value---10
+2016-04-04 22:34:24,893 DEBUG [AddStock]  Step # Control in input method  .//*[@id='addstockprice']--Data value---500
+2016-04-04 22:34:24,969 DEBUG [AddStock]  Step # Control in click method  .//div[@class='floatR']/div[@class='btnRhtGrySml']/input[@id='addStockButton']

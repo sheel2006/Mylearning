@@ -1,0 +1,58 @@
+package com.qtpselenium.core.hybrid.email;
+
+package com.qtpselenium.hybrid.mail;
+
+import java.util.zip.ZipOutputStream;
+
+public class Zip
+{
+  public Zip() {}
+  
+  public static void zipFolder(String src, String dst) throws Exception
+  {
+    zipDir(src, dst);
+  }
+  
+  public static void zipDir(String srcFolder, String destZipFile) throws Exception {
+    ZipOutputStream zip = null;
+    java.io.FileOutputStream fileWriter = null;
+    
+    fileWriter = new java.io.FileOutputStream(destZipFile);
+    zip = new ZipOutputStream(fileWriter);
+    
+    addFolderToZip("", srcFolder, zip);
+    zip.flush();
+    zip.close();
+  }
+  
+  private static void addFileToZip(String path, String srcFile, ZipOutputStream zip)
+    throws Exception
+  {
+    java.io.File folder = new java.io.File(srcFile);
+    if (folder.isDirectory()) {
+      addFolderToZip(path, srcFile, zip);
+    } else {
+      byte[] buf = new byte['Ѐ'];
+      
+      java.io.FileInputStream in = new java.io.FileInputStream(srcFile);
+      zip.putNextEntry(new java.util.zip.ZipEntry(path + "/" + folder.getName()));
+      int len; while ((len = in.read(buf)) > 0) { int len;
+        zip.write(buf, 0, len);
+      }
+    }
+  }
+  
+  private static void addFolderToZip(String path, String srcFolder, ZipOutputStream zip) throws Exception
+  {
+    java.io.File folder = new java.io.File(srcFolder);
+    
+    for (String fileName : folder.list()) {
+      if (path.equals("")) {
+        addFileToZip(folder.getName(), srcFolder + "/" + fileName, zip);
+      } else {
+        addFileToZip(path + "/" + folder.getName(), srcFolder + "/" + fileName, zip);
+      }
+    }
+  }
+}
+

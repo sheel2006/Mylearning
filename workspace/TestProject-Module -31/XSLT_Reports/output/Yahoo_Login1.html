@@ -1,0 +1,352 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>Login1</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">0%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">116 ms
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byStatus_failed_FAIL1_details')">yahootestlogin()</a>
+               </td>
+               <td nowrap="true">00:24:08</td>
+               <td nowrap="true" align="right">116 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byStatus_failed_FAIL1_exception')">org.openqa.selenium.WebDriverException: 
+                     Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output
+                     follows: 
+                     null
+                     Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+                     System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_71'
+                     Driver info: driver.version: FirefoxDriver
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>yahootestlogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>yahootestlogin()
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:24:08
+                     </div>
+                     <div>
+                        <b>End time: </b>00:24:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>116 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe)
+                        on port 7055; process output follows: 
+                        null
+                        Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+                        System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_71'
+                        Driver info: driver.version: FirefoxDriver
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:139)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+                        	at MyMavenProjectGroup.TestProject.yahooTest.yahootestlogin(yahooTest.java:13)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:497)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+                        	at org.testng.TestRunner.run(TestRunner.java:608)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+                        	at org.testng.TestNG.run(TestNG.java:999)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1301)
+                        	at org.testng.TestNG.main(TestNG.java:1265)
+                        Caused by: org.openqa.selenium.WebDriverException: java.lang.RuntimeException: XPathFactory#newInstance() failed to create
+                        an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException:
+                        javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2:
+                        Illegal configuration-file syntax
+                        Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+                        System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_71'
+                        Driver info: driver.version: FirefoxDriver
+                        	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:142)
+                        	at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+                        	at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+                        	at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:443)
+                        	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:421)
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:95)
+                        	... 31 more
+                        Caused by: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object
+                        model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException:
+                        java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2:
+                        Illegal configuration-file syntax
+                        	at javax.xml.xpath.XPathFactory.newInstance(XPathFactory.java:102)
+                        	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:100)
+                        	... 36 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">MyMavenProjectGroup.TestProject.yahooTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byClass_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byClass_FAIL1_details')">yahootestlogin()</a>
+               </td>
+               <td nowrap="true">00:24:08</td>
+               <td nowrap="true" align="right">116 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byClass_FAIL1_exception')">org.openqa.selenium.WebDriverException: 
+                     Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output
+                     follows: 
+                     null
+                     Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+                     System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                     '1.8.0_71'
+                     Driver info: driver.version: FirefoxDriver
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byClass_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>yahootestlogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>yahootestlogin()
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:24:08
+                     </div>
+                     <div>
+                        <b>End time: </b>00:24:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>116 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="MyMavenProjectGroup.TestProject.yahooTest_yahootestlogin_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe)
+                        on port 7055; process output follows: 
+                        null
+                        Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+                        System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_71'
+                        Driver info: driver.version: FirefoxDriver
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:139)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+                        	at MyMavenProjectGroup.TestProject.yahooTest.yahootestlogin(yahooTest.java:13)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:497)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+                        	at org.testng.TestRunner.run(TestRunner.java:608)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+                        	at org.testng.TestNG.run(TestNG.java:999)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1301)
+                        	at org.testng.TestNG.main(TestNG.java:1265)
+                        Caused by: org.openqa.selenium.WebDriverException: java.lang.RuntimeException: XPathFactory#newInstance() failed to create
+                        an XPathFactory for the default object model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException:
+                        javax.xml.xpath.XPathFactoryConfigurationException: java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2:
+                        Illegal configuration-file syntax
+                        Build info: version: '2.50.1', revision: 'd7fc91b29de65b790abb01f3ac5f7ea2191c88a7', time: '2016-01-29 11:11:26'
+                        System info: host: 'Lenovo-PC', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version:
+                        '1.8.0_71'
+                        Driver info: driver.version: FirefoxDriver
+                        	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:142)
+                        	at org.openqa.selenium.firefox.internal.FileExtension.writeTo(FileExtension.java:61)
+                        	at org.openqa.selenium.firefox.internal.ClasspathExtension.writeTo(ClasspathExtension.java:64)
+                        	at org.openqa.selenium.firefox.FirefoxProfile.installExtensions(FirefoxProfile.java:443)
+                        	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:421)
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:95)
+                        	... 31 more
+                        Caused by: java.lang.RuntimeException: XPathFactory#newInstance() failed to create an XPathFactory for the default object
+                        model: http://java.sun.com/jaxp/xpath/dom with the XPathFactoryConfigurationException: javax.xml.xpath.XPathFactoryConfigurationException:
+                        java.util.ServiceConfigurationError: javax.xml.xpath.XPathFactory: jar:file:/C:/Users/Lenovo/.m2/repository/net/sf/saxon/Saxon-HE/9.5.0.1/Saxon-HE-9.5.0.1.jar!/META-INF/services/javax.xml.xpath.XPathFactory:2:
+                        Illegal configuration-file syntax
+                        	at javax.xml.xpath.XPathFactory.newInstance(XPathFactory.java:102)
+                        	at org.openqa.selenium.firefox.internal.FileExtension.readIdFromInstallRdf(FileExtension.java:100)
+                        	... 36 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

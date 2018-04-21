@@ -1,0 +1,14 @@
+package Type_Variable;
+
+public class Assignment1 {
+	static int a;
+	boolean b;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Assignment1 sa = new Assignment1();
+		System.out.println(sa.a);
+		System.out.println(sa.b);
+}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Core_WebDriver_DataDriven_Framework/src/test/resources/Suite_B.xml&apos; to &apos;StockSuite.xml&apos;" description="Rename resource &apos;Suite_B.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/Suite_B.xml" name="StockSuite.xml" stamp="1459063653913" updateReferences="true"/>
+</session>

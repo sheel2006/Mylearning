@@ -1,0 +1,17 @@
+package Type_Variable;
+
+public class Assignment3 {
+	int a =10;//instance variable
+	static int b=30;
+	
+	
+	void m1(){
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

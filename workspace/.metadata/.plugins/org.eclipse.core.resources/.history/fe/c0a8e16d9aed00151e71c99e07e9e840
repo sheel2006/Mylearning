@@ -1,0 +1,28 @@
+
+import java.sql.*;
+public class DataBaseConnection {
+
+	public static void main(String[] args) {
+		//Here we are using MySQL and we have download MySQL jar
+ // Connection is interface
+		Connection conn =null;
+		String url ="jdbc.mysql://localhost:3306";//This is database url in real time we use ip address of database 
+		String dbname="test";
+		String driver="com.mysql.jdbc.Driver";// This "Driver" clase will connect java to database
+	    String username= "root";
+	    String password="password";	
+	    try{
+	      Class.forName(driver).newInstance();// This will create object of Driver class
+	      conn= DriverManager.getConnection(url+dbname+username+password);
+	      // Now connection with data is made
+	      Statement st=conn.createStatement();// Connection inteface give reference of Statement interface and send SQL to DB and statement interface
+	      ResultSet rs = st.executeQuery("Select * from users;"); //ResultSet is interface and reference from Statement interface
+	      while(rs.next()){
+	    	  System.out.println("value of 1st col : "+rs.getString("Employee_id")+"value of 2nd col : "+rs.getString("Employee_Name")+"value of 3rd col : "+rs.getString("Address")+"value of 4th col : "+rs.getString("City"));
+	      }
+	    }catch(Exception e){
+	    	
+	    }
+	
+	}
+}

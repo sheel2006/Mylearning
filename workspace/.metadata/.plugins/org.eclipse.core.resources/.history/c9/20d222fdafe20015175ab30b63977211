@@ -1,0 +1,31 @@
+package com.qtpselenium.framework.datadriven.suiteA;
+
+import java.util.Hashtable;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.qtp.selenium.framework.datadriven.DataDrivenFramework.TestBase;
+import com.qtpselenium.framework.datadriven.util.Constants;
+import com.qtpselenium.framework.datadriven.util.TestDataProvider;
+import com.qtpselenium.framework.datadriven.util.Utility;
+import com.qtpselenium.framework.datadriven.util.Xls_Reader;
+
+public class Test1 extends TestBase{
+
+	
+	@Test(dataProviderClass =TestDataProvider.class,dataProvider ="suiteADataProvider")
+	// Data read from suiteADataProvider, suiteADataProvider hold Testdata for suiteA 
+	public static void test1(Hashtable<String,String> table){
+		Application_logs.debug("Executing TestCase#1");
+		/*
+	Xls_Reader xls = new Xls_Reader("C:\\Sheel\\workspace\\DataDrivenFramework\\src\\test\\java\\com\\qtpselenium\\framework\\datadriven\\Xlsx\\Suite.xlsx");
+    System.out.println(Utility.isSuitableRunnable("SuiteA", xls));
+    Xls_Reader xls1 = new Xls_Reader("C:\\Sheel\\workspace\\DataDrivenFramework\\src\\test\\java\\com\\qtpselenium\\framework\\datadriven\\Xlsx\\SuiteA.xlsx");
+    System.out.println(Utility.isTestCaseRunnable("Test1", xls1));*/
+    validateRunmodes("Test1","SuiteA",table.get(Constants.RUNMODE_COL));
+    table.get(Constants.RUNMODE_COL);	
+    
+	}
+	
+	}

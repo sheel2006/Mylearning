@@ -1,0 +1,22 @@
+package PopupHandling;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WindowHandle {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		Set s =driver.getWindowHandles();
+		Iterator it =s.iterator();
+		driver.get("https://www.olacabs.com/");
+		System.out.println(it.next());
+		
+	}
+
+}

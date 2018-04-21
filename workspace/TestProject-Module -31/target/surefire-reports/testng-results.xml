@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20688" started-at="2016-03-06T18:14:21Z" finished-at="2016-03-06T18:14:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20688" started-at="2016-03-06T18:14:21Z" finished-at="2016-03-06T18:14:42Z">
+      <class name="MyMavenProjectGroup.TestProject.yahooTest">
+        <test-method status="PASS" signature="yahootestlogin()[pri:0, instance:MyMavenProjectGroup.TestProject.yahooTest@36f6e879]" name="yahootestlogin" duration-ms="12297" started-at="2016-03-06T23:44:30Z" finished-at="2016-03-06T23:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahootestlogin -->
+      </class> <!-- MyMavenProjectGroup.TestProject.yahooTest -->
+      <class name="MyMavenProjectGroup.TestProject.googleTest">
+        <test-method status="PASS" signature="googletestlogin()[pri:0, instance:MyMavenProjectGroup.TestProject.googleTest@90f6bfd]" name="googletestlogin" duration-ms="8372" started-at="2016-03-06T23:44:21Z" finished-at="2016-03-06T23:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletestlogin -->
+      </class> <!-- MyMavenProjectGroup.TestProject.googleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

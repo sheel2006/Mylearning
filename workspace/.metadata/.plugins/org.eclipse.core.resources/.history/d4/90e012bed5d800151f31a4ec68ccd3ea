@@ -1,0 +1,22 @@
+package com.qtp.selenium.framework.datadriven.DataDrivenFramework_TestNG;
+
+import org.testng.SkipException;
+
+import com.qtpselenium.framework.datadriven.util.Constants;
+import com.qtpselenium.framework.datadriven.util.Utility;
+import com.qtpselenium.framework.datadriven.util.Xls_Reader;
+
+public class TestBase {
+	
+	public void validateRunmodes(String testname,String suiteName,String dataRunmode){
+		//suite runmode
+		boolean issuteRunmode = Utility.isSuitableRunnable(suiteName, new Xls_Reader("C:\\Sheel\\workspace\\DataDrivenFramework_TestNG\\src\\test\\java\\com\\qtpselenium\\framework\\datadriven\\xls\\Suite.xlsx"));
+		boolean istestRunmode = Utility.isTestCaseRunnable(testname,  new Xls_Reader("C:\\Sheel\\workspace\\DataDrivenFramework_TestNG\\src\\test\\java\\com\\qtpselenium\\framework\\datadriven\\xls\\"+testname+"+.xlsx"));
+		boolean datasetRunmode = false;
+		if(dataRunmode.equals(Constants.RUNMODE_YES))
+			datasetRunmode = true;
+		if(!(issuteRunmode && istestRunmode&&datasetRunmode))
+			throw new SkipException("Skipping the test"+testname+"inside the suite "+suiteName);
+	}
+
+}

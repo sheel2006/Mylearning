@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name="Yahoo" verbose="1" > 
+<listeners>
+<listener class-name ="testing_listener.CustomListener"/>
+</listeners>
+<test name="Login" > 
+    <classes> 
+       <class name="testing_listener.logintest" /> 
+    </classes> 
+  </test> 
+  </suite>

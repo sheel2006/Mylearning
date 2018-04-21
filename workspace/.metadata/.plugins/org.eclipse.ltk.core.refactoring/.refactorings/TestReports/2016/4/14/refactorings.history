@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Xls_Reader.java&apos; to &apos;Reporting/src/Listener&apos;&#x0D;&#x0A;- Original project: &apos;TestReports&apos;&#x0D;&#x0A;- Destination element: &apos;Reporting/src/Listener&apos;&#x0D;&#x0A;- Original element: &apos;Utility.Xls_Reader.java&apos;" description="Copy compilation unit" destination="=Reporting/src&lt;Listener" element1="/src\/test\/java&lt;Utility{Xls_Reader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1459581760698" units="1" version="1.0"/>
+</session>

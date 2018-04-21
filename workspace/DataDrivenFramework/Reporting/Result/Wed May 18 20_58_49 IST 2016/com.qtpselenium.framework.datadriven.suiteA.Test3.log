@@ -1,0 +1,13 @@
+2016-05-18 20:58:50,875 DEBUG [Test3] Step#1.6 : Calling getData for test3
+2016-05-18 20:58:50,879 DEBUG [Test3] Step#1.1 : Validating  method validateRunmodes Test3 in suite SuiteA
+2016-05-18 20:58:50,922 DEBUG [Test3] Step#1.2 : Validating  method isSuitableRunnable--SuiteA
+2016-05-18 20:58:50,971 DEBUG [Test3] Step#1.3 : Validating  method isSuitableRunnable--Test3
+2016-05-18 20:58:51,023 DEBUG [Test3] Step#1.6 : Calling getData for test4
+2016-05-18 20:58:51,033 DEBUG [Test3] Step#1.1 : Validating  method validateRunmodes Test4 in suite SuiteA
+2016-05-18 20:58:51,062 DEBUG [Test3] Step#1.2 : Validating  method isSuitableRunnable--SuiteA
+2016-05-18 20:58:51,098 DEBUG [Test3] Step#1.3 : Validating  method isSuitableRunnable--Test4
+2016-05-18 20:58:51,099 DEBUG [Test3] Step#1.5 : Skipping the testTest4inside the suite SuiteA
+2016-05-18 20:58:51,115 DEBUG [Test3] Step#1.1 : Validating  method validateRunmodes Test4 in suite SuiteA
+2016-05-18 20:58:51,150 DEBUG [Test3] Step#1.2 : Validating  method isSuitableRunnable--SuiteA
+2016-05-18 20:58:51,201 DEBUG [Test3] Step#1.3 : Validating  method isSuitableRunnable--Test4
+2016-05-18 20:58:51,203 DEBUG [Test3] Step#1.5 : Skipping the testTest4inside the suite SuiteA

@@ -1,0 +1,70 @@
+package com.qtpselenium.framework.datadriven.stocksuite;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Hashtable;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.qtpselenium.framework.datadriven.TestBase;
+import com.qtpselenium.framework.datadriven.util.Constants;
+import com.qtpselenium.framework.datadriven.util.TestDataProvider;
+import com.qtpselenium.framework.datadriven.util.Utility;
+import com.qtpselenium.framework.datadriven.util.Xls_Reader;
+
+public class AddStock extends TestBase {
+
+	@Test(dataProviderClass =TestDataProvider.class,dataProvider ="StockSuiteDataProvider")
+	public void AddStock(Hashtable<String,String> table) throws Throwable{
+
+		 validateRunmodes("AddStock",Constants.SECOND_SUITE_RUN,table.get(Constants.RUNMODE_COL));
+		    Application_logs.debug("Step#2.0 : Executing from Stock Suite ");
+		    table.get(Constants.RUNMODE_COL);	
+		    dologindefault(table.get(Constants.Browser_Col));
+		    Actions act = new Actions(driver);
+		    WebElement addstock = driver.findElement(By.xpath(".//*[@id='addStock']"));
+		    act.moveToElement(addstock).click().build().perform();
+		    // click("addstock");
+		    Application_logs.debug("Step#2.1 : Click on addStock ");
+		    explictwait(20,"stockname");
+		   // input("stockname",table.get("Stock Name"));
+		    Application_logs.debug("Step#2.2 : extract value from calender ");
+		    click("stockcalender");
+		    String date = table.get("PurchaseDate");
+		    Date currentdate = new Date();
+		      //String expecteddate= "8/04/2013";
+		    SimpleDateFormat formatdate = new SimpleDateFormat("dd/MM/yyyy");
+		    Date dateToBeselected = null;
+		      try {
+				 dateToBeselected = formatdate.parse(date);
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		     // System.out.println(currentdate);
+		    //  System.out.println(dateToBeselected);
+		    //  System.out.println(currentdate.after(dateToBeselected));
+		      
+		      String month = new SimpleDateFormat("MMMM").format(dateToBeselected);
+		      Calendar cal = Calendar.getInstance();
+		      cal.setTime(dateToBeselected);
+		      int year = cal.get(Calendar.YEAR);
+		      String month_year_expected = month+" "+year;
+		      while(true){
+		    	  String month_year_Displayed = getText("monthAndYearText_xpath");
+		    	  if(month_year_Displayed.equals(month_year_expected))
+		    		  break;//correct month
+		    	  if(currentdate.after(dateToBeselected))
+		    		  click("calender_back_xpath")
+		    		  
+		      }
+		    
+	}
+	
+}

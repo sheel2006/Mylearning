@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="MyMavenProjectGroup.TestProject.YahooNewsTest">
+        <methods>
+          <include name="TestNews"/>
+          <include name="xyz"/>
+        </methods>
+      </class>
+      <class name="MyMavenProjectGroup.TestProject.yahooTest">
+        <methods>
+          <include name="yahootestlogin"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

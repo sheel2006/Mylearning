@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AltoroMutual Suite">
+
+<listeners>
+    <listener class-name="com.AltroMutual.Listener.TestsListenerAdapter" />
+</listeners>
+<test name="LoginTest">
+    <classes>
+        <class name="com.AltoroMutual.TestCases.CustomerLoginTest" ></class>  
+    </classes>
+</test>
+<test name="Customer Account Profile">
+    <classes>
+        <class name="com.AltoroMutual.TestCases.CustomerAccountProfile" ></class>  
+    </classes>
+</test>
+<test name="Customer Transactions Query Test">
+    <classes>
+        <class name="com.AltoroMutual.TestCases.CustomerTransactionsQuery" ></class>  
+    </classes>
+</test>
+<test name="Customer Fund Trx Test">
+    <classes>
+        <class name="com.AltoroMutual.TestCases.CustomerFundTrx" ></class>  
+    </classes>
+</test>
+</suite>

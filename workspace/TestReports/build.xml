@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE project>
+<project basedir="." default="create" name="Learning TestNG">
+	
+	<target name ="delete">
+			<mkdir dir ="bin" />
+			<mkdir dir ="src" />
+			<mkdir dir ="lib" />
+			<mkdir dir ="test-output" />
+	</target>
+	<target name ="create" depends ="delete">
+		<mkdir dir ="bin" />
+		<mkdir dir ="src" />
+		<mkdir dir ="lib" />
+		<mkdir dir ="test-output" />
+	</target>
+	<target name = "copy" depends="create">
+		<copydir src="" dest=""></copydir>
+	</target>
+	
+	
+	
+	<!-- ****************** targets not used ****************** -->
+</project>

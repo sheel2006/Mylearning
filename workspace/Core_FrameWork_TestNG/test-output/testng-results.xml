@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="7" failed="0" total="17" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="775" started-at="2016-05-18T15:27:58Z" finished-at="2016-05-18T15:27:59Z">
+    <groups>
+    </groups>
+    <test name="TestCase_A1" duration-ms="718" started-at="2016-05-18T15:27:58Z" finished-at="2016-05-18T15:27:59Z">
+      <class name="com.qtpselenium.suiteA.TestCase_A1">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="checkTestSkip" is-config="true" duration-ms="4" started-at="2016-05-18T20:57:58Z" finished-at="2016-05-18T20:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseA1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="testcaseA1" duration-ms="7" started-at="2016-05-18T20:57:58Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A1_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A1_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_A1_3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_A1_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA1 -->
+        <test-method status="PASS" signature="reportDatasetresult()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="reportDatasetresult" is-config="true" duration-ms="322" started-at="2016-05-18T20:57:58Z" finished-at="2016-05-18T20:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDatasetresult -->
+        <test-method status="PASS" signature="testcaseA1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="testcaseA1" duration-ms="5" started-at="2016-05-18T20:57:58Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A1_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A1_6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_A1_7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_A1_8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA1 -->
+        <test-method status="PASS" signature="reportDatasetresult()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="reportDatasetresult" is-config="true" duration-ms="73" started-at="2016-05-18T20:57:58Z" finished-at="2016-05-18T20:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDatasetresult -->
+        <test-method status="SKIP" signature="testcaseA1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="testcaseA1" duration-ms="3" started-at="2016-05-18T20:57:58Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A1_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A1_10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_A1_11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_A1_12]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode for Test data A1 is set as No2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode for Test data A1 is set as No2
+	at com.qtpselenium.suiteA.TestCase_A1.testcaseA1(TestCase_A1.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1221)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA1 -->
+        <test-method status="PASS" signature="reportDatasetresult()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="reportDatasetresult" is-config="true" duration-ms="96" started-at="2016-05-18T20:57:58Z" finished-at="2016-05-18T20:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDatasetresult -->
+        <test-method status="PASS" signature="testcaseA1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="testcaseA1" duration-ms="7" started-at="2016-05-18T20:57:58Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A1_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A1_14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_A1_15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_A1_16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA1 -->
+        <test-method status="PASS" signature="reportDatasetresult()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="reportDatasetresult" is-config="true" duration-ms="83" started-at="2016-05-18T20:57:58Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDatasetresult -->
+        <test-method status="PASS" signature="reporttestresult()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A1@cc285f4]" name="reporttestresult" is-config="true" duration-ms="71" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporttestresult -->
+      </class> <!-- com.qtpselenium.suiteA.TestCase_A1 -->
+    </test> <!-- TestCase_A1 -->
+    <test name="TestCase_A2" duration-ms="21" started-at="2016-05-18T15:27:59Z" finished-at="2016-05-18T15:27:59Z">
+      <class name="com.qtpselenium.suiteA.TestCase_A2">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A2@59f99ea]" name="checkSuiteSkip" is-config="true" duration-ms="1035" started-at="2016-05-18T20:57:57Z" finished-at="2016-05-18T20:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteA.TestCase_A2@59f99ea]" name="checkTestSkip" is-config="true" duration-ms="3" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseA2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteA.TestCase_A2@59f99ea]" name="testcaseA2" duration-ms="2" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A2_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A2_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_A2_3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA2 -->
+        <test-method status="SKIP" signature="testcaseA2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteA.TestCase_A2@59f99ea]" name="testcaseA2" duration-ms="1" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_A2_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_A2_6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_A2_7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode for Test data A2 is set as No1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode for Test data A2 is set as No1
+	at com.qtpselenium.suiteA.TestCase_A2.testcaseA2(TestCase_A2.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1221)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA2 -->
+      </class> <!-- com.qtpselenium.suiteA.TestCase_A2 -->
+    </test> <!-- TestCase_A2 -->
+  </suite> <!-- Suite1 -->
+  <suite name="MySuite" duration-ms="0" started-at="2016-05-18T15:28:00Z" finished-at="2016-05-18T15:28:00Z">
+    <groups>
+    </groups>
+  </suite> <!-- MySuite -->
+  <suite name="Suite2" duration-ms="87" started-at="2016-05-18T15:27:59Z" finished-at="2016-05-18T15:27:59Z">
+    <groups>
+    </groups>
+    <test name="TestCase_B1" duration-ms="39" started-at="2016-05-18T15:27:59Z" finished-at="2016-05-18T15:27:59Z">
+      <class name="com.qtpselenium.suiteB.TestCase_B1">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteB.TestCase_B1@42d80b78]" name="checkTestSkip" is-config="true" duration-ms="2" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseB1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteB.TestCase_B1@42d80b78]" name="testcaseB1" duration-ms="4" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseB1 -->
+        <test-method status="SKIP" signature="testcaseB1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteB.TestCase_B1@42d80b78]" name="testcaseB1" duration-ms="2" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[RunMode for Test data B1 is set as No1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: RunMode for Test data B1 is set as No1
+	at com.qtpselenium.suiteB.TestCase_B1.testcaseB1(TestCase_B1.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1221)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseB1 -->
+        <test-method status="PASS" signature="testcaseB1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteB.TestCase_B1@42d80b78]" name="testcaseB1" duration-ms="3" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseB1 -->
+        <test-method status="PASS" signature="testcaseB1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteB.TestCase_B1@42d80b78]" name="testcaseB1" duration-ms="2" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_B1_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_B1_14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_B1_15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_B1_16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseB1 -->
+      </class> <!-- com.qtpselenium.suiteB.TestCase_B1 -->
+    </test> <!-- TestCase_B1 -->
+    <test name="TestCase_B2" duration-ms="34" started-at="2016-05-18T15:27:59Z" finished-at="2016-05-18T15:27:59Z">
+      <class name="com.qtpselenium.suiteB.TestCase_B2">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.qtpselenium.suiteB.TestCase_B2@6a41eaa2]" name="checkSuiteSkip" is-config="true" duration-ms="389" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteB.TestCase_B2@6a41eaa2]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseB2()[pri:0, instance:com.qtpselenium.suiteB.TestCase_B2@6a41eaa2]" name="testcaseB2" duration-ms="29" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseB2 -->
+      </class> <!-- com.qtpselenium.suiteB.TestCase_B2 -->
+    </test> <!-- TestCase_B2 -->
+  </suite> <!-- Suite2 -->
+  <suite name="Suite3" duration-ms="74" started-at="2016-05-18T15:27:59Z" finished-at="2016-05-18T15:28:00Z">
+    <groups>
+    </groups>
+    <test name="TestCase_C1" duration-ms="28" started-at="2016-05-18T15:27:59Z" finished-at="2016-05-18T15:28:00Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C1">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@42e26948]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case TestCase_C1RunMode set as 'NO']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case TestCase_C1RunMode set as 'NO'
+	at com.qtpselenium.suiteC.TestCase_C1.checkTestSkip(TestCase_C1.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1221)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@42e26948]" name="testcaseC1" duration-ms="1" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC1 -->
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@42e26948]" name="testcaseC1" duration-ms="1" started-at="2016-05-18T20:57:59Z" data-provider="getTestdata" finished-at="2016-05-18T20:57:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC1 -->
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@42e26948]" name="testcaseC1" duration-ms="15" started-at="2016-05-18T20:58:00Z" data-provider="getTestdata" finished-at="2016-05-18T20:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC1 -->
+        <test-method status="SKIP" signature="testcaseC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.suiteC.TestCase_C1@42e26948]" name="testcaseC1" duration-ms="1" started-at="2016-05-18T20:58:00Z" data-provider="getTestdata" finished-at="2016-05-18T20:58:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy Data_C1_13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dummy Data_C1_14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dummy Data_C1_15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dummy Data_C1_16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC1 -->
+      </class> <!-- com.qtpselenium.suiteC.TestCase_C1 -->
+    </test> <!-- TestCase_C1 -->
+    <test name="TestCase_C2" duration-ms="15" started-at="2016-05-18T15:28:00Z" finished-at="2016-05-18T15:28:00Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C2">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C2@204f30ec]" name="checkTestSkip" is-config="true" duration-ms="11" started-at="2016-05-18T20:58:00Z" finished-at="2016-05-18T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseC2()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C2@204f30ec]" name="testcaseC2" duration-ms="2" started-at="2016-05-18T20:58:00Z" finished-at="2016-05-18T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC2 -->
+      </class> <!-- com.qtpselenium.suiteC.TestCase_C2 -->
+    </test> <!-- TestCase_C2 -->
+    <test name="TestCase_C3" duration-ms="4" started-at="2016-05-18T15:28:00Z" finished-at="2016-05-18T15:28:00Z">
+      <class name="com.qtpselenium.suiteC.TestCase_C3">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C3@13deb50e]" name="checkSuiteSkip" is-config="true" duration-ms="320" started-at="2016-05-18T20:57:59Z" finished-at="2016-05-18T20:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C3@13deb50e]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2016-05-18T20:58:00Z" finished-at="2016-05-18T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseC3()[pri:0, instance:com.qtpselenium.suiteC.TestCase_C3@13deb50e]" name="testcaseC3" duration-ms="1" started-at="2016-05-18T20:58:00Z" finished-at="2016-05-18T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseC3 -->
+      </class> <!-- com.qtpselenium.suiteC.TestCase_C3 -->
+    </test> <!-- TestCase_C3 -->
+  </suite> <!-- Suite3 -->
+</testng-results>

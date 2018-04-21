@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Xls_Reader.java&apos; to &apos;Core_Hybrid_Framework/src/test/java/com.qtpselenium.core.hybrid.core_hybrid_util&apos;&#x0D;&#x0A;- Original project: &apos;Core_FrameWork_TestNG&apos;&#x0D;&#x0A;- Destination element: &apos;Core_Hybrid_Framework/src/test/java/com.qtpselenium.core.hybrid.core_hybrid_util&apos;&#x0D;&#x0A;- Original element: &apos;com.qtpselenium.util.Xls_Reader.java&apos;" description="Copy compilation unit" destination="=Core_Hybrid_Framework/src\/test\/java&lt;com.qtpselenium.core.hybrid.core_hybrid_util" element1="/src&lt;com.qtpselenium.util{Xls_Reader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1485450388485" units="1" version="1.0"/>
+</session>

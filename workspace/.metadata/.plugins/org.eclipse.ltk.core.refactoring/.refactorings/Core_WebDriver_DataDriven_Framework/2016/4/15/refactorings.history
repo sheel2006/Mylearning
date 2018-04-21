@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Core_WebDriver_DataDriven_Framework/src/test/resources/log4j.properties&apos; to &apos;log4jx.properties&apos;" description="Rename resource &apos;log4j.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/log4j.properties" name="log4jx.properties" stamp="1459781637655" updateReferences="true"/>
+</session>

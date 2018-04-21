@@ -1,0 +1,13 @@
+package Type_Variable;
+
+public class Assignment1 {
+	
+	public static void main(String[] args) {
+		 int a;
+		 boolean b;
+
+		System.out.println(a);
+		System.out.println(b);
+}
+
+}

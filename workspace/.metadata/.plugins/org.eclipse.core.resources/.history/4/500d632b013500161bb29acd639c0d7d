@@ -1,0 +1,27 @@
+package practice;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class duplicatenumbers {
+	
+public static void main(String[] args) {
+	int [] arry = {10,20,30,40,50,50,10,20,30,20};
+	
+	HashMap<Integer,Integer>hs = new HashMap<Integer,Integer>();
+	
+	for(Integer it:arry){
+		if(hs.containsKey(arry)){
+			hs.put(it, hs.get(it)+1);
+		}
+			else{
+				hs.put(it,1);
+			}
+		}
+	System.out.println(hs);
+	 
+	}
+}
+	
+
+}

@@ -1,0 +1,30 @@
+
+public class Point {
+
+	int x= 5;
+	int y= 6;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Point P = new Point();
+      P.x = 10;
+      P.y= 30;
+      System.out.println(P.x+"===Before swap==="+P.y);
+     // P.swap(P.x,P.y);
+      P.swapval(P);//This is example of Pass by reference and use for pass objects
+      System.out.println(P.x+"===after swap==="+P.y);
+     
+	}
+/*   public static void swap( int a, int b){//This is example of Pass by value and use for primitive data type like int, byte
+	   int temp = a;
+	   a=b;
+	   b= temp;
+	   System.out.println(a+"===after swap==="+b); 
+   }*/
+	
+	// In this we are passing call reference as parameter so we can access each variable
+	public static void swapval(Point t){
+		int temp = t.x;
+		t.x=t.y;
+		t.y= temp;
+	}
+}

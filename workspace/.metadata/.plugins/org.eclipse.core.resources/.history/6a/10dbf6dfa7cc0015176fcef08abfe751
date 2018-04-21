@@ -1,0 +1,21 @@
+
+public class Point {
+
+	int x= 5;
+	int y= 6;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Point P = new Point();
+      P.x = 10;
+      P.y= 30;
+      System.out.println(P.x+"===Before swap==="+P.y);
+      P.swap(P.x,P.y);
+     
+	}
+   public static void swap( int a, int b){
+	   int temp = a;
+	   a=b;
+	   b= temp;
+	   System.out.println(a+"===after swap==="+b); 
+   }
+}

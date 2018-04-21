@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Grid with WebDriver" verbose="3" parallel="tests" thread-count="2" >
+	<!-- parallel will allowed to run test parallel in machine and "tests" keywords in TestNG 
+    parameter name="browser", browser is define as @parameter annotation in testcase
+    value=firefox should be same as test -->
+	<test name="Test with Mozilla">
+		<classes>
+			<class name="Grid.xGoogleSearchParallelRun"/>
+		</classes>
+	</test> 
+	<test name="Test with chrome">
+		<classes>
+			<class name="Grid.DropBox"/>
+		</classes>
+	</test> 
+</suite> <!-- Suite -->

@@ -1,0 +1,37 @@
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Test {
+	static int cal = 10;
+	public static void main(String[] args) {
+		
+	/*	Hashtable hs= new Hashtable();
+		hs.put("A", 10);
+		hs.put("A", 20);
+		hs.put("C", 40);
+		hs.put("D", 30);
+		
+	
+	Iterator it = (Iterator)hs.keys();
+	while(it.hasNext()){
+		System.out.println(it.next());	
+		}*/
+	
+	String st ="Hello World";
+	for(int i=st.length()-1;i>=0;i--){
+		System.out.print(st.charAt(i));
+	}
+	System.out.println(Test.cal);
+	Test t = new Test();
+	t.test1();
+		
+	}
+	public void test1(){
+		Test t = new Test();
+		System.out.println(t.cal);
+		
+		
+		
+	}
+}

@@ -1,0 +1,42 @@
+
+import java.sql.*;
+public class TestDataBase {
+  
+	static final String dburl="jdbc.mysql://localhost.3306/";
+	static final String dname="test";
+	static final String dbdriver="come.mysql.jdbc.driver";
+	static final String username="root";
+	static final String password="password";
+			
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection conn = null;
+		Statement stmt = null;
+    try {
+		Class.forName(dbdriver);
+		conn = DriverManager.getConnection(dburl+dname,username,password);
+		stmt = conn.createStatement();
+		ResultSet rs=stmt.executeQuery("select * from users");
+		while(rs.next()){
+			System.out.println("value of 1st col "+rs.getString("Employee_id")+"value of 2st col "+rs.getString("Employee_Name")+"value of 3rd col "+rs.getString("Address")+"value of 4th "+rs.getString("City"));
+		}
+		
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}//Object intialize for dbDriver.
+    	catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+    finally{
+    	try {
+			stmt.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+	}
+
+}
