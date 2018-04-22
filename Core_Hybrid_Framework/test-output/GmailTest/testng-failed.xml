@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GmailTest]">
+  <test name="Gmail login">
+    <classes>
+      <class name="com.qtpselenium.core.hybrid.core_hybrid_testcases.GmailLogin"/>
+    </classes>
+  </test> <!-- Gmail login -->
+  <test name="Gmail login(failed)">
+    <classes>
+      <class name="com.qtpselenium.core.hybrid.core_hybrid_testcases.GmailLogin">
+        <methods>
+          <include name="dologin" invocation-numbers="0 1 2"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.hybrid.core_hybrid_testcases.GmailLogin -->
+    </classes>
+  </test> <!-- Gmail login(failed) -->
+</suite> <!-- Failed suite [GmailTest] -->
