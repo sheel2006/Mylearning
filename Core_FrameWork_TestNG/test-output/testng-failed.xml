@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite3]">
+  <listeners>
+    <listener class-name="com.qtpselenium.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="TestCase_C1(failed)">
+    <classes>
+      <class name="com.qtpselenium.suiteC.TestCase_C3">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteC.TestCase_C3 -->
+      <class name="com.qtpselenium.suiteC.TestCase_C1">
+        <methods>
+          <include name="testcaseC1"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteC.TestCase_C1 -->
+      <class name="com.qtpselenium.suiteC.TestCase_C2">
+        <methods>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.qtpselenium.suiteC.TestCase_C2 -->
+    </classes>
+  </test> <!-- TestCase_C1(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

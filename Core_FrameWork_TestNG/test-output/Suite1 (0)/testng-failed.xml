@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1 (0)]">
+  <test name="TestCase_A1">
+    <classes>
+      <class name="com.qtpselenium.suiteA.TestCase_A1"/>
+    </classes>
+  </test> <!-- TestCase_A1 -->
+  <test name="TestCase_A2">
+    <classes>
+      <class name="com.qtpselenium.suiteA.TestCase_A2"/>
+    </classes>
+  </test> <!-- TestCase_A2 -->
+</suite> <!-- Failed suite [Suite1 (0)] -->
