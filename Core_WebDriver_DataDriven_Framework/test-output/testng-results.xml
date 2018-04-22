@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Project" duration-ms="0" started-at="2016-04-04T17:10:41Z" finished-at="2016-04-04T17:10:41Z">
+    <groups>
+    </groups>
+  </suite> <!-- My Project -->
+  <suite name="Stocksuite" duration-ms="43614" started-at="2016-04-04T17:09:56Z" finished-at="2016-04-04T17:10:40Z">
+    <groups>
+    </groups>
+    <test name="Stock Add Test" duration-ms="43614" started-at="2016-04-04T17:09:56Z" finished-at="2016-04-04T17:10:40Z">
+      <class name="com.qtpselenium.framework.datadriven.stocksuite.AddStock">
+        <test-method status="PASS" signature="initLogs()[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@6108b2d7]" name="initLogs" is-config="true" duration-ms="133" started-at="2016-04-04T22:39:56Z" finished-at="2016-04-04T22:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogs -->
+        <test-method status="PASS" signature="AddStock(java.util.Hashtable)[pri:0, instance:com.qtpselenium.framework.datadriven.stocksuite.AddStock@6108b2d7]" name="AddStock" duration-ms="42635" started-at="2016-04-04T22:39:57Z" data-provider="StockSuiteDataProvider" finished-at="2016-04-04T22:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PurchasePrice=500, Runmode=Y, Stock Name=Nestle India Ltd., Quantity=10, PurchaseDate=1/07/2014, Browser=Mozilla, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddStock -->
+      </class> <!-- com.qtpselenium.framework.datadriven.stocksuite.AddStock -->
+    </test> <!-- Stock Add Test -->
+  </suite> <!-- Stocksuite -->
+</testng-results>

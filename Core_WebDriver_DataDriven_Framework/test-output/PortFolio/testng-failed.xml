@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PortFolio]">
+  <test name="Login Test">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LoginTest"/>
+    </classes>
+  </test> <!-- Login Test -->
+  <test name="LeastPerAssetTest">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest"/>
+    </classes>
+  </test> <!-- LeastPerAssetTest -->
+  <test name="Test 3">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.Test3"/>
+    </classes>
+  </test> <!-- Test 3 -->
+  <test name="Test 4">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.Test4"/>
+    </classes>
+  </test> <!-- Test 4 -->
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest -->
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LoginTest">
+        <methods>
+          <include name="LoginTest" invocation-numbers="1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="LeastPerAssetTest(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest">
+        <methods>
+          <include name="LeastPerAssetTest" invocation-numbers="1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest -->
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LoginTest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.LoginTest -->
+    </classes>
+  </test> <!-- LeastPerAssetTest(failed) -->
+  <test name="Test 3(failed)">
+    <classes>
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.LeastPerAssetTest -->
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.LoginTest">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.LoginTest -->
+      <class name="com.qtpselenium.framework.datadriven.PortFolio.Test3">
+        <methods>
+          <include name="test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qtpselenium.framework.datadriven.PortFolio.Test3 -->
+    </classes>
+  </test> <!-- Test 3(failed) -->
+</suite> <!-- Failed suite [PortFolio] -->
